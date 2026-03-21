@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+@import "tailwindcss";
+
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
+  }
+  .contactInput {
+    @apply outline-none px-6 py-4 bg-slate-400/10 border-[#242424] rounded-sm border-b uppercase  text-gray-500 focus:text-[#F7AB0A]  hover:text-[#F7AB0A]/40;
+  }
+}
+
