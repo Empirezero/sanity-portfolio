@@ -58,7 +58,7 @@ export default async function Home() {
       </section>
 
       <section id="contact" className="snap-start">
-        <Contact />
+   o     <Contact />
       </section>
 
       <Link href="#hero">
